@@ -10,8 +10,8 @@
     "start": "electron .",
     "postinstall": "electron-rebuild -f"
   },
-  "author": "hunterbdm",
-  "license": "ISC",
+  "author": "@hunter_bdm(Twitter) \\ @hunterbdm(Github)",
+  "license": "MIT",
   "dependencies": {
     "electron-is-dev": "^0.3.0",
     "elgato-stream-deck": "^2.0.0",
