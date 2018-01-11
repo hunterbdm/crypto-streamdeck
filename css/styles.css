@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.deck {
+    width: 100%;
+    background-color: #BBBBBB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.vert {
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.hori {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 74px;
+    width: 74px;
+    background-color: #505050;
+    float: left;
+    border-radius: 8px;
+}
+
+.hori.selected {
+    border: 2px solid rgb(31, 121, 224);
+    height: 70px;
+    width: 70px;
+}
+
+.coins {
+    height: calc(100% - 262px);
+    width: 100%;
+}
+
+/* Full Width */
+.fw {
+    width: 100%;
+}
+
+/* Full Height */
+.fh {
+    height: 100%;
+}
+
+/* Half Width */
+.hw {
+    width: 50%;
+}
+
+/* Half Height */
+.hh {
+    width: 50%;
+}
+
+/* Float Left */
+.fl {
+    float: left;
+}
+
+.coins div{
+    float: left;
+}
+
+.coins .left {
+    width: calc(50% - 15px);
+    height: calc(100% - 20px);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+.coins .right {
+    width: calc(50% - 15px);
+    height: calc(100% - 20px);
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+select.large {
+    height: 35px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button.large {
+    width: calc(100% - 5px);
+    height: calc(50% - 8px);
+}
+
+button.top {
+    margin-bottom: 5px;
+}
+
+button.bottom {
+    margin-top: 5px;
+}
+
+.green {
+    background-color: #4CAF50;
+}
+
+button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+select {
+    border: none;
+    background-color: #C8C8C8;
+    border-radius: 6px;
+}
