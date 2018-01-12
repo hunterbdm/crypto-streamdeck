@@ -33,7 +33,16 @@ $ npm start
 4. Select market in the second dropdown menu
 5. Select the pair to use from the third dropdown menu
 6. Click "Save"
+7. Add to your windows startup folder if you want the app to run on system startup.
 
+
+
+### Add to Startup
+1. Open `run`
+    - Type `run` in windows search bar
+    - Windows Key + R
+2. Type `shell:startup` & hit enter
+3. Add shortcut into Startup folder
 
 
 ### Who
